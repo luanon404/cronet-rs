@@ -1,8 +1,8 @@
+> This project is considered 'complete' and is therefore no longer maintained. Contact me if you want to unarchive this project for whatever reason.
+
 # cronet-rs 🦀
 
 Bindings to the Chromium Networking Stack (a.k.a cronet) in Rust.
-
-> :warning: This crate is under active development and the API is not yet stable.
 
 ## Developers
 
@@ -18,11 +18,6 @@ Then, follow the steps to build the project:
 1. Get the latest cronet binaries: [build from source](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/components/cronet/build_instructions.md) or download prebuilt binaries from [here](https://github.com/sleeyax/cronet-binaries/releases).
 2. Place all `.h` header files in `src` and all binaries (`.so`, `.dll`, `.dylib`) in `bin`.
 3. Run `cargo build`. This should trigger `bindgen` to (re)generate the bindings.
-
-## Sponsors
-
-Maintenance of this project is made possible by all the contributors and sponsors.
-If you'd like to sponsor this project and have your avatar or company logo appear below click [here](https://github.com/sponsors/sleeyax). 💖
 
 ## Related projects
 
